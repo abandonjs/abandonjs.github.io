@@ -1,4 +1,6 @@
-# [ruihuag](https://guanruihua.github.io/#/)
+# abandonjs
+
+> [Author Home](https://guanruihua.github.io/#/)
 
 - 常用方法的封装
 
