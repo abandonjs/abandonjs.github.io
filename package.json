@@ -4,7 +4,10 @@
   "description": "> [Author Home](https://guanruihua.github.io/#/)",
   "author": "ruihuag",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "node ./__assets__/build/build-sidebar-lv1.js",
+    "push": "bash ./__assets__/script/push.bat"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/guanruihua/abandonjs.github.io.git"
