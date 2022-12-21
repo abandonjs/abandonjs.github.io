@@ -4,3 +4,4 @@
 > - `param` `val` 16进制颜色
 > - `param` ?opa 透明度
 > - `returns` `string`
+> - `version` `2`.4.0

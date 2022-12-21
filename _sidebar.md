@@ -15,6 +15,7 @@
   * [zip](/array/zip.md)
 * color
   * [isHexColor](/color/isHexColor.md)
+  * [rgbToHex](/color/rgbToHex.md)
   * [toRGB](/color/toRGB.md)
 * event
   * [EventEmitter](/event/EventEmitter.md)
@@ -62,10 +63,13 @@
   * [likeNumber](/is/likeNumber.md)
 * math
   * [add](/math/add.md)
+  * [average](/math/average.md)
   * [ceil](/math/ceil.md)
   * [divide](/math/divide.md)
   * [floor](/math/floor.md)
   * [HEX](/math/HEX.md)
+  * [isEven](/math/isEven.md)
+  * [isOdd](/math/isOdd.md)
   * [max](/math/max.md)
   * [maxBy](/math/maxBy.md)
   * [mean](/math/mean.md)
@@ -92,17 +96,28 @@
   * [omitRecord](/object/omitRecord.md)
   * [serialize](/object/serialize.md)
 * string
+  * [capitalize](/string/capitalize.md)
   * [hide](/string/hide.md)
+  * [randomString](/string/randomString.md)
   * [replaces](/string/replaces.md)
   * [reverseString](/string/reverseString.md)
   * [stringify](/string/stringify.md)
   * [toString](/string/toString.md)
   * [toStrings](/string/toStrings.md)
+  * [truncateString](/string/truncateString.md)
+* sundry
+  * [toCelsius](/sundry/toCelsius.md)
+  * [toFahrenheit](/sundry/toFahrenheit.md)
 * time
+  * [dayOfYear](/time/dayOfYear.md)
   * [deadline](/time/deadline.md)
   * [format](/time/format.md)
+  * [intervalDate](/time/intervalDate.md)
+  * [isSameDate](/time/isSameDate.md)
   * [timezone](/time/timezone.md)
   * [toDate](/time/toDate.md)
+* tree
+  * [arrayToTree](/tree/arrayToTree.md)
 * util
   * [asyncBan](/util/asyncBan.md)
   * [asyncThrowError](/util/asyncThrowError.md)
