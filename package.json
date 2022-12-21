@@ -1,6 +1,6 @@
 {
   "name": "abandonjs.github.io",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "description": "abandonjs api 文档",
   "author": "ruihuag",
   "license": "MIT",
@@ -22,5 +22,7 @@
     "url": "https://github.com/abandonjs/abandonjs.github.io/issues"
   },
   "homepage": "https://github.com/abandonjs/abandonjs.github.io",
-  "keywords": []
+  "keywords": [
+    "docs"
+  ]
 }
