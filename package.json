@@ -1,7 +1,7 @@
 {
   "name": "abandonjs.github.io",
-  "version": "0.0.1",
-  "description": "> [Author Home](https://guanruihua.github.io/#/)",
+  "version": "2.4.1",
+  "description": "abandonjs api 文档",
   "author": "ruihuag",
   "license": "MIT",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/guanruihua/abandonjs.github.io.git"
+    "url": "git://github.com/abandonjs/abandonjs.github.io.git"
   },
   "files": [
     "package.json",
@@ -19,8 +19,8 @@
     "index.js"
   ],
   "bugs": {
-    "url": "https://github.com/guanruihua/abandonjs.github.io/issues"
+    "url": "https://github.com/abandonjs/abandonjs.github.io/issues"
   },
-  "homepage": "https://github.com/guanruihua/abandonjs.github.io",
+  "homepage": "https://github.com/abandonjs/abandonjs.github.io",
   "keywords": []
 }
