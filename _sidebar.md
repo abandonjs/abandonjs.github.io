@@ -35,7 +35,6 @@
   * [runFunc](/function/runFunc.md)
   * [throttle](/function/throttle.md)
   * [toPromise](/function/toPromise.md)
-* index.js
 * is
   * [FileType](/is/FileType.md)
   * [FileTypeMap](/is/FileTypeMap.md)
