@@ -20,7 +20,25 @@ import { type } from 'abandonjs'
 
 > `@version`: 最新更新的版本
 
+### 类型相关类型确实
+
+> 安装 `check-it-type`
+
+```bash
+npm i -D check-it-type
+```
+
 ## 升级日志
+
+### 2.4.1
+
+- 添加若干方法
+- 修复若干bug
+
+### 2.4.0
+
+- 将`abandonjs`类型判断相关方法分离出 `check-it-type` 包, 用法不变
+- 整理 出 `npm-util-template` 模板
 
 ### 2.3.7
 

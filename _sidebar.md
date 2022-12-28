@@ -35,7 +35,6 @@
   * [runFunc](/function/runFunc.md)
   * [throttle](/function/throttle.md)
   * [toPromise](/function/toPromise.md)
-* index.js
 * is
   * [FileType](/is/FileType.md)
   * [FileTypeMap](/is/FileTypeMap.md)
@@ -125,7 +124,9 @@
   * [BanConfig](/util/BanConfig.md)
   * [catchError](/util/catchError.md)
   * [changeCase](/util/changeCase.md)
+  * [deepClone](/util/deepClone.md)
   * [equal](/util/equal.md)
+  * [isEqual](/util/isEqual.md)
   * [logAsync](/util/logAsync.md)
   * [logGroup](/util/logGroup.md)
   * [matchValue](/util/matchValue.md)
