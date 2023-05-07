@@ -212,7 +212,7 @@ ul.open>li.file.active {
 .markdown-section code,
 .markdown-section pre {
   white-space: pre-wrap;
-  background-color: #eee;
+  /* background-color: #eee; */
   /* background-color: red; */
 }
 
@@ -266,7 +266,7 @@ div.search {
 .markdown-section {
   overflow-y: auto;
   max-width: 98%;
-  background-color: rgba(255, 255, 255, .4);
+  /* background-color: rgba(255, 255, 255, .4); */
   padding-top: 0;
 }
 
