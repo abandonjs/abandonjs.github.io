@@ -1,0 +1,225 @@
+article:where(.markdown-section)>* {
+  margin: 6px 0;
+}
+
+.markdown-section code,
+.markdown-section output:after,
+.markdown-section pre {
+  font-family: Roboto Mono, Monaco, courier, monospace
+}
+
+.markdown-section code,
+.markdown-section pre {
+  border-radius: 4px;
+  color: #fff;
+  background-color: #000;
+}
+
+.markdown-section output,
+.markdown-section pre {
+  margin: 1.2em 0;
+  position: relative
+}
+
+.markdown-section output,
+.markdown-section pre>code {
+  border-radius: 2px;
+  display: block
+}
+
+.markdown-section output:after,
+.markdown-section pre>code {
+  -moz-osx-font-smoothing: initial;
+  -webkit-font-smoothing: initial
+}
+
+.markdown-section code {
+  border-radius: 2px;
+  color: #448ef7;
+  margin: 0 2px;
+  padding: 3px 5px;
+  white-space: pre-wrap
+}
+
+.markdown-section>:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) code {
+  font-size: .8rem
+}
+
+.markdown-section pre {
+  padding: 0 .4rem;
+  line-height: 1.5rem;
+  overflow: auto;
+  word-wrap: normal
+}
+
+.markdown-section pre>code {
+  /* color: #525252; */
+  color: #fff;
+  font-size: .8rem;
+  /* padding: 2.2em 5px; */
+  line-height: inherit;
+  margin: 0 2px;
+  max-width: inherit;
+  overflow: inherit;
+  white-space: inherit
+}
+
+
+.markdown-section output {
+  padding: 1.7rem 1.4rem;
+  border: 1px dotted #ccc
+}
+
+.markdown-section output>:first-child {
+  margin-top: 0
+}
+
+.markdown-section output>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-section code:after,
+.markdown-section code:before,
+.markdown-section output:after,
+.markdown-section output:before {
+  letter-spacing: .05rem
+}
+
+.markdown-section output:after,
+.markdown-section pre:after {
+  color: #525252;
+  font-size: .6rem;
+  font-weight: 600;
+  height: 15px;
+  line-height: 15px;
+  padding: 5px 10px 0;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 0;
+  content: attr(data-lang)
+}
+
+
+.token.cdata,
+.token.comment,
+.token.doctype,
+.token.prolog {
+  color: #8e908c
+}
+
+.token.namespace {
+  opacity: .7
+}
+
+.token.boolean,
+.token.number {
+  color: #c76b29
+}
+
+.token.punctuation {
+  color: #525252
+}
+
+.token.property {
+  color: #c08b30
+}
+
+.token.tag {
+  color: #2973b7
+}
+
+.token.string {
+  color: #42b983;
+  color: var(--theme-color, #42b983)
+}
+
+.token.selector {
+  color: #6679cc
+}
+
+.token.attr-name {
+  color: #2973b7
+}
+
+.language-css .token.string,
+.style .token.string,
+.token.entity,
+.token.url {
+  color: #22a2c9
+}
+
+.token.attr-value,
+.token.control,
+.token.directive,
+.token.unit {
+  color: #42b983;
+  color: var(--theme-color, #42b983)
+}
+
+.token.function,
+.token.keyword {
+  color: #448ef7
+}
+
+.token.atrule,
+.token.regex,
+.token.statement {
+  color: #22a2c9
+}
+
+.token.placeholder,
+.token.variable {
+  color: #3d8fd1
+}
+
+.token.deleted {
+  text-decoration: line-through
+}
+
+.token.inserted {
+  border-bottom: 1px dotted #202746;
+  text-decoration: none
+}
+
+.token.italic {
+  font-style: italic
+}
+
+.token.bold,
+.token.important {
+  font-weight: 700
+}
+
+.token.important {
+  color: #c94922
+}
+
+.token.entity {
+  cursor: help
+}
+
+code .token {
+  -moz-osx-font-smoothing: initial;
+  -webkit-font-smoothing: initial;
+  min-height: 1.5rem;
+  position: relative;
+  left: auto
+}
+
+
+button.docsify-copy-code-button {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow: visible;
+  padding: .25em .5em;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  font-size: 1em;
+  border-bottom-left-radius: 4px;
+  background: rgb(75, 75, 75);
+  color: #fff;
+}
