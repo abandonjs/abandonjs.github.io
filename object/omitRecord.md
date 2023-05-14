@@ -1,4 +1,4 @@
-# omitRecord<T extends Record<string, any> = Record<string, any>>
+# omitRecord<T extends ObjectType>
 
 > - `description` 忽略object属性
 > - `param` `record` T

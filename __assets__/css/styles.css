@@ -241,3 +241,12 @@ div.page_toc div[class^="lv"] a span {
 .app-sub-sidebar li:before {
   content: counter(num)'.';
 }
+
+.input-wrap input {
+  color: #fff;
+}
+
+.markdown-section p.tip,
+.markdown-section tr:nth-child(2n) {
+  background-color: #8b8b8b;
+}
